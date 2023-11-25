@@ -1,0 +1,83 @@
+/* Desktop Styles */
+.main {
+    max-width: 100%;
+    margin: 0;
+    font-size: 0;
+  }
+  
+  .section {
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 300px;
+  }
+  
+  .menu {
+    background-color: #5995DA;
+    line-height: 80px
+  }
+  
+  .hero {
+    line-height: 400px;
+    background-color: #B2D6FF;
+  }
+  
+  .box-1,
+  .box-2,
+  .box-3 {
+    width: 33.3%;
+    display: inline-block;
+  }
+  
+  .sign-up {
+    background-color: #D6E9FE;
+    line-height: 100px;
+  }
+  
+  .content {
+    background-color: #9d7eb6;
+    line-height: 600px;
+  }
+  
+  .box-1 {
+    background-color: #F5CF8E;
+  }
+  
+  .box-2 {
+    background-color: #F09A9D;
+  }
+  
+  .box-3 {
+    background-color: #C8C6FA;
+  }
+  
+  .footer {
+    color: #f4f4f4;
+    background-color: #333333;
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (max-width: 960px) {
+    .box-1,
+    .box-2,
+    .box-3 {
+      width:100%;
+    }
+    .sign-up{
+      width: 100%;
+      
+    }
+  
+    .sign-up {
+    visibility:visible;
+
+    }
+  
+    .footer,
+    .box-1,
+    .box-2,
+    .box-3 {
+      order: 4;
+    }
+  }
